@@ -41,10 +41,56 @@
 // na miejscu 2 jest z
 
 
-const faces = ['smile', 'cry', 'sad', 'ble']
+// const faces = ['smile', 'cry', 'sad', 'ble']
 
-for (let i = 0; i < faces.length; i++) {		
-    console.log(`i = ${i+1}`);	
-    console.log(`element ${i+1}: ${faces[i]}`);		
-    }		
+// for (let i = 0; i < faces.length; i++) {
+//     console.log(`i = ${i + 1}`);
+//     console.log(`element ${i + 1}: ${faces[i]}`);
+// }
 
+// let a = 10;
+
+// while (a > 0) {
+//     a--;
+//     console.log(a);
+// }
+
+
+
+// let n = 3;
+
+// while (n < 9) {
+//     console.log(n);
+//     n = n + 3;
+//     console.log(n);
+// }
+// console.log(n);
+
+// let n = 9;
+// do {
+//     console.log(n);
+//     n = n + 3;
+// } while (n < 9);
+// console.log(n);
+
+// let a = 5;
+// do {
+//     console.log(a);
+//     a = a + 3;
+// } while (a < 9);
+// console.log(a);
+
+
+// const person = {
+//     name: 'maciek',
+//     age: 31
+// }
+// for (let propertyName in person) {
+//     console.log(`${propertyName}: ${person[propertyName]}`);
+// }
+
+
+const elements = ['x', 'y', 'z'];
+for (let element of elements) {
+    console.log(element);
+}	
